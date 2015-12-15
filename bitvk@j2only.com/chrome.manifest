@@ -1,0 +1,3 @@
+overlay chrome://browser/content/browser.xul chrome://bitvk/content/browser.xul
+content bitvk chrome/content/
+content bitvk chrome/content/ contentaccessible=yes

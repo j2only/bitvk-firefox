@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<overlay id="bitvk" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<head></head>
+	<script type="application/x-javascript" src="vk.js"></script>
+</overlay>
