@@ -1,3 +1,10 @@
 overlay chrome://browser/content/browser.xul chrome://bitvk/content/browser.xul
 content bitvk chrome/content/
 content bitvk chrome/content/ contentaccessible=yes
+locale bitvk en chrome/locale/en/
+locale bitvk zh chrome/locale/zh/
+locale bitvk es chrome/locale/es/
+locale bitvk ru chrome/locale/ru/
+locale bitvk de chrome/locale/de/
+locale bitvk fr chrome/locale/fr/
+locale bitvk it chrome/locale/it/

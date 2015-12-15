@@ -28,7 +28,7 @@
     var parts = duration.split(':');
     var seconds = parseInt(parts[0], 10) * 60 + parseInt(parts[1], 10);
     var bitrate = ((size * 8) / seconds / 1000).toFixed();
-    var size_text = "Скачать " + size_mb + "МБ";
+    var size_text = l10n['download'] + ' ' + size_mb + l10n['size'];
     $(obj).find('.bitvk_el').attr('onmouseover','Audio.rowActive(this, \''+size_text+'\');');
     $(obj).find(".duration").after('<div class="fl_r bitrate">' + bitrate + '</div>');
     $(obj).attr('size', size);

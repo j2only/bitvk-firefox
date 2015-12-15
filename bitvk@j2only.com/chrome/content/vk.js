@@ -86,6 +86,14 @@
       style.setAttribute('type', 'text/css');
       style.setAttribute('href', ' chrome://bitvk/content/bitvk.css');
       doc.getElementsByTagName('head')[0].appendChild(style);
+  }  
+
+  function load_l10n(doc)
+  { 
+      var locl = doc.createElement('script');
+      locl.type = 'text/javascript';
+      locl.src = 'chrome://bitvk/locale/bitvk.properties';
+      doc.getElementsByTagName('head')[0].appendChild(locl);
   }
 
   var VK_secureEvent = {
@@ -122,6 +130,7 @@
 
     if(VK_global_doc) {
       load_css(VK_global_doc);
+      load_l10n(VK_global_doc);
 
       var script = VK_global_doc.createElement( 'script' );
       script.type = 'text/javascript';
