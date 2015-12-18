@@ -1,7 +1,7 @@
 //bitvk loader
 //original script by pihel
 //forked and modified by j2only
-//published under Mozilla Public License Version 1.1
+//published under Mozilla Public License Version 2.0
 (function() {
   var VK_global_doc = undefined;
 
